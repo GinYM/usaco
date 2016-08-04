@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\学习\usaco\kimbits\kimbits\source.cpp(42): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+c:\学习\usaco\kimbits\kimbits\source.cpp(44): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+c:\学习\usaco\kimbits\kimbits\source.cpp(47): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+  kimbits.vcxproj -> C:\学习\usaco\kimbits\Debug\kimbits.exe

@@ -1,23 +1,43 @@
-#include<map> 
-#include<iterator> 
-#include<string> 
-#include<iostream> 
-#include<cstring> 
-using   namespace   std;
-struct   itemstruct
+/*
+ID:jzzlee1
+PROB:kimbits
+LANG:C++
+*/
+//#include<iostream>
+#include<fstream>
+#include<cmath>
+#include<vector>
+using namespace std;
+ifstream cin("kimbits.in");
+ofstream cout("kimbits.out");
+int dp[33][33];
+int dy(int n, int v)
 {
-	int   a;
-	char   b[20];
-	itemstruct(int   t, char*str)
+	if (dp[n][v] != 0)
+		return dp[n][v];
+	else
+		dp[n][v] = dy(n - 1, v) + dy(n - 1, v - 1);
+	return dp[n][v];
+}
+int main()
+{
+	unsigned int n, l, i;
+	int j, k;
+	cin >> n >> l >> i;
+	for (j = 0, k = 0; j != 33; j++)
+		dp[j][k] = dp[k][j] = 1;
+	
+	for (k = n - 1; k >= 0; k--)
 	{
-		a = t;
-		strcpy(b, str);
+		if (i&&dy(k, l) < i)
+		{
+			cout << 1;
+			i -= dy(k, l);
+			l--;
+		}
+		else
+			cout << 0;
 	}
-};
-int   main()
-{
-	string a = "000";
-	string b = "11";
-	cout << a.size() << " " << b.size() << endl;
-	return   0;
+	cout << endl;
+	return 0;
 }
