@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nuggets", "nuggets\nuggets.vcxproj", "{2336324C-593B-4D8D-8973-6FB4F95B2D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2336324C-593B-4D8D-8973-6FB4F95B2D2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2336324C-593B-4D8D-8973-6FB4F95B2D2E}.Debug|Win32.Build.0 = Debug|Win32
+		{2336324C-593B-4D8D-8973-6FB4F95B2D2E}.Release|Win32.ActiveCfg = Release|Win32
+		{2336324C-593B-4D8D-8973-6FB4F95B2D2E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
