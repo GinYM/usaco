@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\学习\usaco\fence9\fence9\source.cpp(28): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  fence9.vcxproj -> C:\学习\usaco\fence9\Debug\fence9.exe
