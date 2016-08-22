@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\学习\usaco\fence6\fence6\source.cpp(151): warning C4101: 'n1' : unreferenced local variable
+c:\学习\usaco\fence6\fence6\source.cpp(152): warning C4101: 'tmp' : unreferenced local variable
+c:\学习\usaco\fence6\fence6\source.cpp(151): warning C4101: 'l' : unreferenced local variable
+c:\学习\usaco\fence6\fence6\source.cpp(151): warning C4101: 'n2' : unreferenced local variable
+  fence6.vcxproj -> C:\学习\usaco\fence6\Debug\fence6.exe
