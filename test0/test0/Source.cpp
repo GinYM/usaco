@@ -26,8 +26,11 @@ void Mychange(int &a)
 
 int main()
 {
-	int a = 0;
-	Mychange(a);
-	cout << a << endl;
+	string s1 = "abcd";
+	string s2 = "abce";
+	if (s1 < s2)
+	{
+		cout << "yes!" << endl;
+	}
 	return 0;
 }

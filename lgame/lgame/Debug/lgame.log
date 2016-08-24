@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\学习\usaco\lgame\lgame\source.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+c:\学习\usaco\lgame\lgame\source.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+  lgame.vcxproj -> C:\学习\usaco\lgame\Debug\lgame.exe

@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\学习\usaco\shuttle\shuttle\source.cpp(64): warning C4018: '<=' : signed/unsigned mismatch
+c:\学习\usaco\shuttle\shuttle\source.cpp(76): warning C4018: '<=' : signed/unsigned mismatch
+c:\学习\usaco\shuttle\shuttle\source.cpp(152): warning C4018: '<=' : signed/unsigned mismatch
+c:\学习\usaco\shuttle\shuttle\source.cpp(169): warning C4018: '<=' : signed/unsigned mismatch
+  shuttle.vcxproj -> C:\学习\usaco\shuttle\Debug\shuttle.exe
